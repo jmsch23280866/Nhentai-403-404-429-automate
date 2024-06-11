@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         當nhentai.net顯示403 CSRF Token Invalid時自動強制重新整理
+// @name         Nhentai.net 403 auto refresh
 // @version      0.1
 // @description  當 nhentai.net 網頁顯示 "403 – CSRF Token Invalid" 時，自動執行強制重新整理
 // @author       特務E04
