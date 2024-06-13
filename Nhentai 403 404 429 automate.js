@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Nhentai.net error 403 & 429 auto refresh
-// @version      0.3
-// @description  當 nhentai.net 網頁顯示 "403 – CSRF Token Invalid" 或 "429 Too Many Requests"時，自動重新整理網頁(此腳本由ChatGPT協助撰寫)
+// @name         Nhentai.net error 403 & 429 auto refresh & 404 auto close
+// @version      0.4
+// @description  當 nhentai.net 網頁顯示 "403 – CSRF Token Invalid" 或 "429 Too Many Requests"時，自動重新整理網頁，當顯示 "404 – Not Found" 時，自動關閉網頁(此腳本由ChatGPT協助撰寫)
 // @author       特務E04
 // @match        https://nhentai.net/*
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
@@ -32,9 +32,20 @@
         }
     }
 
+    // 檢查網頁是否顯示 "404 – Not Found"
+    function checkFor404() {
+        if ($('body:contains("404 – Not Found")').length > 0) {
+            console.log("Detected 404 – Not Found, closing tab...");
+            setTimeout(function() {
+                window.close(); // 關閉當前頁面
+            }, 2000); // 2秒後關閉頁面
+        }
+    }
+
     // 當頁面加載完成後檢查一次
     document.addEventListener('DOMContentLoaded', function() {
         checkFor403CSRF();
         checkFor429();
+        checkFor404();
     });
 })();
