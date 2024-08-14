@@ -25,7 +25,7 @@
             setTimeout(function() {
                 let newUrl = window.location.href.replace(/^https:/, 'http:');
                 window.location.href = newUrl; // 將網址中的 https 改為 http 並重新加載
-            }, 2000); // 2秒後修改網址並重新加載
+            }, 1000); // 1秒後修改網址並重新加載
         }
     }
 
@@ -35,7 +35,7 @@
             console.log("Detected 429 Too Many Requests, refreshing in 2 seconds...");
             setTimeout(function() {
                 location.reload(); // 普通重新整理
-            }, 2000); // 2秒後重新整理
+            }, 1000); // 1秒後重新整理
         }
     }
 
@@ -47,7 +47,7 @@
                 let currentUrl = window.location.href;
                 let archiveUrl = 'https://web.archive.org/web/' + currentUrl;
                 window.location.href = archiveUrl; // 跳轉到 Web Archive 的對應頁面
-            }, 2000); // 2秒後跳轉
+            }, 1000); // 1秒後跳轉
         }
     }
 
