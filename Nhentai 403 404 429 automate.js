@@ -1,12 +1,14 @@
 // ==UserScript==
-// @name         Nhentai.net error 403 & 404 & 429 automate
-// @version      1.0
-// @description  自動解決 nhentai.net 網頁上顯示 "403 – CSRF Token Invalid" 或 "429 Too Many Requests" 或 "404 – Not Found"(此腳本由ChatGPT協助撰寫)
-// @author       特務E04
-// @match        https://nhentai.net/*
-// @require      https://code.jquery.com/jquery-3.6.0.min.js
+// @name  　　 　Nhentai.net error 403 & 404 & 429 automate
+// @version    　1.0
+// @description　自動解決 nhentai.net 網頁上顯示 "403 – CSRF Token Invalid" 或 "429 Too Many Requests" 或 "404 – Not Found"(此腳本由ChatGPT協助撰寫)
+// @author     　特務E04
+// @match      　https://nhentai.net/*
+// @require    　https://code.jquery.com/jquery-3.6.0.min.js
+// @noframes
+// @supportURL　 https://github.com/jmsch23280866/Nhentai-403-404-429-automate/issues
 // @license      MIT
-// @namespace    https://github.com/jmsch23280866
+// @namespace  　https://github.com/jmsch23280866
 // ==/UserScript==
 
 (function() {
