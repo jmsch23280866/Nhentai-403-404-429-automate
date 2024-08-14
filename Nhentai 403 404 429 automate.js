@@ -1,18 +1,18 @@
 // ==UserScript==
 // @name         Nhentai.net Errors Automatically resolve
-// @name:zh-TW 　Nhentai.net 錯誤自動排除
-// @name:zh-CN 　Nhentai.net 错误自动排除
-// @version    　1.1
-// @description　Automatically resolves "403 - CSRF Token Invalid" or "429 Too Many Requests" or "404 - Not Found" displayed on nhentai.net web pages. (Script assisted by ChatGPT)
-// @description:zh-TW　自動解決 nhentai.net 網頁上顯示 "403 – CSRF Token Invalid" 或 "429 Too Many Requests" 或 "404 – Not Found"(此腳本由ChatGPT協助撰寫)
-// @description:zh-CN　自动解决 nhentai.net 网页上显示 "403 – CSRF Token Invalid" 或 "429 Too Many Requests" 或 "404 – Not Found"(此脚本由ChatGPT协助撰写)
-// @author     　特務E04
-// @match      　https://nhentai.net/*
+// @name:zh-TW   Nhentai.net 錯誤自動排除
+// @name:zh-CN   Nhentai.net 错误自动排除
+// @version      1.1
+// @description  Automatically resolves "403 - CSRF Token Invalid" or "429 Too Many Requests" or "404 - Not Found" displayed on nhentai.net web pages. (Script assisted by ChatGPT)
+// @description:zh-TW  自動解決 nhentai.net 網頁上顯示 "403 – CSRF Token Invalid" 或 "429 Too Many Requests" 或 "404 – Not Found"(此腳本由ChatGPT協助撰寫)
+// @description:zh-CN  自动解决 nhentai.net 网页上显示 "403 – CSRF Token Invalid" 或 "429 Too Many Requests" 或 "404 – Not Found"(此脚本由ChatGPT协助撰写)
+// @author       特務E04
+// @match        https://nhentai.net/*
 // @require    　https://code.jquery.com/jquery-3.6.0.min.js
 // @noframes
-// @supportURL　 https://github.com/jmsch23280866/Nhentai-403-404-429-automate/issues
+// @supportURL   https://github.com/jmsch23280866/Nhentai-403-404-429-automate/issues
 // @license      MIT
-// @namespace  　https://github.com/jmsch23280866
+// @namespace    https://github.com/jmsch23280866
 // ==/UserScript==
 
 (function() {
