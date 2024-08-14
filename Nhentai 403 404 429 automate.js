@@ -1,6 +1,7 @@
 // ==UserScript==
-// @name  　　 　Nhentai.net Errors Automatically resolve
+// @name         Nhentai.net Errors Automatically resolve
 // @name:zh-TW 　Nhentai.net 錯誤自動排除
+// @name:zh-CN 　Nhentai.net 错误自动排除
 // @version    　1.1
 // @description　Automatically resolves "403 - CSRF Token Invalid" or "429 Too Many Requests" or "404 - Not Found" displayed on nhentai.net web pages. (Script assisted by ChatGPT)
 // @description:zh-TW　自動解決 nhentai.net 網頁上顯示 "403 – CSRF Token Invalid" 或 "429 Too Many Requests" 或 "404 – Not Found"(此腳本由ChatGPT協助撰寫)
